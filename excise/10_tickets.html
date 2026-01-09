@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+</head>
+<body>
+    <h1 align="center">Bus Tickets Search</h1>
+    <form action="successful1.html"method="post">
+
+    <table width="90%"align="center"border="1"cellpadding="10" cellpadding="10"
+    style="background-color: rgba(0, 0, 0, 0.103);" >
+    <tr>
+    <td> 
+            <label for="source">Source</label>
+            <input type="text"name="source"id="source"required/>
+        </td>
+        <td><label for="destination">Destination</label>
+            <input type="text"name="destination"id="destination"required/>
+        </td>
+        <td><label for="journey_date">Journey_Date</label>
+            <input type="date"name="journey_date"id="journey_date required/">
+        </td>
+
+    <td>
+            <label for="Ac">
+            <input type="radio" name="bus_type" id="ac" value="1" required/>AC</label>
+
+        <label for="sleeper">
+            <input type="radio" name="bus_type" id="sleeper" value="2" required/>Sleeper</label>
+    
+         
+         <label for="express">
+         <input type="radio" name="bus_type" id="express" value="3">express
+         </label>
+ </td>
+        <td>
+            <label for="tickets"> Tickets</label>
+            <select name="tickets" id="tickets">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            </select>
+        </td>
+        <td>
+            <button type="submit"> Search</button>
+            <button type="reset">Clear all</button>
+        </td>
+    </tr>
+    </table>
+</form>
+</body>
+</html>

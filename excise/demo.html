@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Register</title>
+</head>
+<body>
+
+<h1 align="center">Create New Facebook Account</h1>
+
+<form action="successful1.html" method="post">
+
+<table width="90%" align="center" border="1" cellpadding="10" style="background-color: rgba(0, 0, 0, 0.08);">
+
+<tr>
+    <td>
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" required>
+    </td>
+
+    <td>
+        <label for="lname">Surname</label><br>
+        <input type="text" name="lname" id="lname" required>
+    </td>
+
+    <td>
+        <label for="email">Mobile or Email</label><br>
+        <input type="email" name="email" id="email" required>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <label for="password">New Password</label><br>
+        <input type="password" name="password" id="password" required>
+    </td>
+
+    <td>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" name="dob" id="dob" required>
+    </td>
+
+    <td>
+        <label>Gender</label><br>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="custom"> Custom
+    </td>
+</tr>
+
+<tr>
+    <td colspan="3" align="center">
+        <button type="submit">Sign Up</button>
+        <button type="reset">Clear All</button>
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
