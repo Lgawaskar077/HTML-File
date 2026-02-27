@@ -1,0 +1,43 @@
+1) create web page that will show name of each state and 5 city name of 1st five state under each state name. ul/ol and li 
+
+2) create web page to display upcoming T20 world cup schedule using table tag 
+
+3) crate web page to display 2025 IPL final point table. 
+
+4) create web page to display 7 continent images name and using img tag and table tag 
+
+5) create web page that shows 7 videos on each and every continent. 
+
+6) create to display 3 stories in single page 
+    each story must have 3 images. each story should have 300 words 
+    
+input
+------------------------------------------------------
+1) create register page same as facebook 
+2) change password 
+3) forgot password 
+4) recreate registration form of shaadi.com only using html
+
+6) develope recipe website in gujarati language (use only html 4)
+
+types of web page 
+    1) home page 
+        https://gujarati.foodviva.com/
+     Menu (Common for all 43 pages)
+        Logo
+        Site Name 
+        Home, 6 links, one link for each category
+     12 recipe (4 recipe in each line)
+        Link 
+            Photo 
+            Name
+    2) Category Page [6 page]
+        each category should have 6 recipe
+        2 design pattern 
+            https://www.theroute2roots.com/category/breakfast/
+            https://gujarati.foodviva.com/paneer-recipes/
+    3) recipe detail page (36 pages)
+        1 design pattern 
+        https://gujarati.foodviva.com/curry-recipes/shahi-paneer-recipe
+
+        also display recipe of the same category 
